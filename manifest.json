@@ -1,0 +1,22 @@
+{
+	"background":{
+	   "service_worker":"sw.js"
+	},
+	"action":{
+	   "default_icon":"icon.png",
+	   "default_title":"Web Share Extension"
+	},
+	"description":"Share current tab and selected text using the installed apps on your computer. Requires Chrome 89+ on Windows or ChromeOS.",
+	"icons":{
+	   "128":"icon.png"
+	},
+	"manifest_version":3,
+	"name":"Web Share Extension (Beta)",
+	"version":"1.0.0",
+	"permissions":[
+	   "contextMenus",
+	   "activeTab",
+	   "scripting"
+	],
+	"homepage_url":"https://browsernative.com/web-share-api-extension/"
+ }
